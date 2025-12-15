@@ -6,5 +6,6 @@
 2. Obtain the offsets and replace them in the main code.
 3. Build the project and inject it into the game. You can use [lRenjector](https://github.com/lRefund/lRenjector)
 
-# Offsets
+## Offsets
 - Don't know how to get offsets? Read [this guide ](https://blog.rumi.dev/blog/genshin-runtime-dump)
+
