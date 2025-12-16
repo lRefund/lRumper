@@ -80,34 +80,34 @@ static il2cpp_field_get_offset_t       g_FieldGetOffset         = nullptr;
 static il2cpp_field_get_return_type_t  g_FieldGetReturn_Type    = nullptr;
 static il2cpp_class_get_props_t        g_KlassGetProps          = nullptr;
 static il2cpp_class_get_interfaces_t   g_klassGetInterfaces     = nullptr;
-static il2cpp_type_get_name_t          g_TypeGetName            = nullptr;
 
-static uintptr_t kOff_GetTypeInfo         = 0x0;
-static uintptr_t kOff_get_methods         = 0x0;
-static uintptr_t kOff_get_name            = 0x0;
-static uintptr_t kOff_get_namespace       = 0x0;
-static uintptr_t kOff_method_get_name     = 0x0;
-static uintptr_t kOff_get_parent          = 0x0;
-static uintptr_t kOff_class_from_type     = 0x0;
-static uintptr_t kOff_class_get_type      = 0x0;
-static uintptr_t kOff_is_enum             = 0x0;
-static uintptr_t kOff_get_fields          = 0x0;
-static uintptr_t kOff_field_get_name      = 0x0;
-static uintptr_t kOff_field_get_flags     = 0x0;
-static uintptr_t kOff_field_get_value     = 0x0;
-static uintptr_t kOff_klassSetupMethods   = 0x0;
-static uintptr_t kOff_KlassIsValue        = 0x0;
-static uintptr_t kOff_ClassGet_Flags      = 0x0;
-static uintptr_t kOff_KlassGetImage       = 0x0;
-static uintptr_t kOff_methodGetReturnType = 0x0;
-static uintptr_t kOff_methodGetParamCount = 0x0;
-static uintptr_t kOff_methodGetParam      = 0x0;
-static uintptr_t kOff_methodGetParamName  = 0x0;
-static uintptr_t kOff_FieldGetOffset      = 0x0;
-static uintptr_t kOff_FieldGetReturn_Type = 0x0;
-static uintptr_t kOff_KlassGetProps       = 0x0;
-static uintptr_t kOff_klassGetInterfaces  = 0x0;
-static uintptr_t kOff_TypeGetName         = 0x0;
+static il2cpp_type_get_name_t          g_TypeGetName            = nullptr;
+static uintptr_t kOff_GetTypeInfo         = 0x0; // il2cpp_MetadataCache_GetTypeInfoFromTypeDefinitionIndex
+static uintptr_t kOff_get_methods         = 0x0; // il2cpp_class_get_methods
+static uintptr_t kOff_get_name            = 0x0; // il2cpp_class_get_name
+static uintptr_t kOff_get_namespace       = 0x0; // il2cpp_class_get_namespace
+static uintptr_t kOff_method_get_name     = 0x0; // il2cpp_method_get_name
+static uintptr_t kOff_get_parent          = 0x0; // il2cpp_class_get_parent
+static uintptr_t kOff_class_from_type     = 0x0; // il2cpp_class_from_type
+static uintptr_t kOff_class_get_type      = 0x0; // il2cpp_class_get_type
+static uintptr_t kOff_is_enum             = 0x0; // il2cpp_class_is_enum
+static uintptr_t kOff_get_fields          = 0x0; // il2cpp_class_get_fields
+static uintptr_t kOff_field_get_name      = 0x0; // il2cpp_field_get_name
+static uintptr_t kOff_field_get_flags     = 0x0; // il2cpp_field_get_flags
+static uintptr_t kOff_field_get_value     = 0x0; // il2cpp_field_get_value
+static uintptr_t kOff_klassSetupMethods   = 0x0; // il2cpp_klass_setup_methods
+static uintptr_t kOff_KlassIsValue        = 0x0; // il2cpp_class_is_valuetype
+static uintptr_t kOff_ClassGet_Flags      = 0x0; // il2cpp_class_get_flags
+static uintptr_t kOff_KlassGetImage       = 0x0; // il2cpp_class_get_image
+static uintptr_t kOff_methodGetReturnType = 0x0; // il2cpp_method_get_return_type
+static uintptr_t kOff_methodGetParamCount = 0x0; // il2cpp_method_get_param_count
+static uintptr_t kOff_methodGetParam      = 0x0; // il2cpp_method_get_param
+static uintptr_t kOff_methodGetParamName  = 0x0; // il2cpp_method_get_param_name
+static uintptr_t kOff_FieldGetOffset      = 0x0; // il2cpp_field_get_offset
+static uintptr_t kOff_FieldGetReturn_Type = 0x0; // il2cpp_field_get_type
+static uintptr_t kOff_KlassGetProps       = 0x0; // il2cpp_class_get_properties
+static uintptr_t kOff_klassGetInterfaces  = 0x0; // il2cpp_class_get_interfaces
+static uintptr_t kOff_TypeGetName         = 0x0; // il2cpp_type_get_name
 
 static uintptr_t g_gameAssemblyBase = 0;
 static std::string g_baseDir = "";
@@ -1108,4 +1108,5 @@ DWORD WINAPI Run(LPVOID) {
     }
 
     return 0;
+
 }
