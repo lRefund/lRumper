@@ -80,8 +80,8 @@ static il2cpp_field_get_offset_t       g_FieldGetOffset         = nullptr;
 static il2cpp_field_get_return_type_t  g_FieldGetReturn_Type    = nullptr;
 static il2cpp_class_get_props_t        g_KlassGetProps          = nullptr;
 static il2cpp_class_get_interfaces_t   g_klassGetInterfaces     = nullptr;
-
 static il2cpp_type_get_name_t          g_TypeGetName            = nullptr;
+
 static uintptr_t kOff_GetTypeInfo         = 0x0; // il2cpp_MetadataCache_GetTypeInfoFromTypeDefinitionIndex
 static uintptr_t kOff_get_methods         = 0x0; // il2cpp_class_get_methods
 static uintptr_t kOff_get_name            = 0x0; // il2cpp_class_get_name
@@ -1110,3 +1110,4 @@ DWORD WINAPI Run(LPVOID) {
     return 0;
 
 }
+
